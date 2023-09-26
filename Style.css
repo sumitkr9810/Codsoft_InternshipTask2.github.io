@@ -1,0 +1,361 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-size: 1.1rem;
+    border-radius: 12px;
+    color: crimson;
+
+}
+
+.left {
+    font-size: 1.8rem;
+
+}
+
+.firstsection {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    margin: 90px 0px;
+    height: 460px;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(57, 51, 51);
+    margin: 0px 84px;
+    height: 1.2px;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    width: 80%;
+    font-size: 3.8rem;
+}
+
+.rightsection {
+    width: 50%;
+
+}
+
+.rightsection img {
+
+    margin-right: 117px;
+    height: 85%;
+    width: 100%;
+}
+
+.crimson-red {
+    color: crimson;
+}
+
+.subscript {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.btn {
+    font-size: 1rem;
+    position: relative;
+    top: 10px;
+    right: 15px;
+    background-color: crimson;
+    border: 2px solid grey;
+    border-radius: 8px;
+    color: white;
+    margin: 15px;
+    width: 150px;
+    height: 40px;
+}
+
+.btn:hover {
+    background-color: gray;
+    color: black;
+    font-size: 1.0rem;
+    cursor: pointer;
+}
+
+#element {
+    font-size: 2.3rem;
+}
+
+.About-section {
+    display: flex;
+    position: relative;
+    padding: 62px;
+    height: 55vh;
+    background-color: white;
+}
+
+.imgabout {
+    width: 400px;
+    height: 500px;
+}
+
+.left-about {
+    margin-left: 150px;
+
+}
+
+.right-about {
+
+    color: black;
+    font-size: 1.6rem;
+    position: relative;
+    left: 200px;
+    top: 80px;
+    width: 650px;
+}
+
+.right-about span {
+    color: purple;
+}
+
+.about-h1 {
+    position: absolute;
+    right: 1200px;
+}
+
+#resume {
+    margin-top: 10px;
+    margin-left: 180px;
+}
+
+.secondsection {
+    height: 60vh;
+    background-color: rgb(221, 212, 212);
+}
+
+
+
+.secondsection .box {
+    width: 1300px;
+    height: 2px;
+    background-color: black;
+    margin: 50px 80px;
+    display: flex;
+}
+
+.secondsection .vertical {
+    position: relative;
+    right: 100px;
+    height: 40px;
+    width: 1px;
+    background-color: black;
+    margin: 0px 170px;
+
+}
+
+h1 {
+    height: 40px;
+    position: relative;
+    top: 20px;
+    color: black;
+    margin-left: 120px;
+    font-size: 2.3rem;
+}
+
+div>p {
+    /* margin-top: 20px; */
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.vertical-text {
+    position: relative;
+    top: 30px;
+    width: 250px;
+    height: 200px;
+    color: black;
+
+}
+
+.imgtop {
+    position: relative;
+    top: 25px;
+    width: 180px;
+    height: 130px;
+}
+
+.thirdsection {
+    background-color: black;
+    height: 70vh;
+}
+
+.thirdsection h1 {
+    color: white;
+}
+
+#third {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#third h2 {
+    color: white;
+}
+
+#third .box {
+    background-color: #262626;
+    border-radius: 25px;
+    padding: 18px;
+    margin: 26px;
+    margin-top: 80px;
+    height: 300px;
+    width: 290px;
+    color: white;
+
+}
+
+#third .box:hover {
+    color: white;
+    background-color: crimson;
+    width: 320px;
+    height: 300px;
+    transform: translateY(-10px);
+
+
+}
+
+.imgpro {
+    position: relative;
+    left: 60px;
+    width: 160px;
+    height: 140px;
+}
+
+.box p {
+    font-size: 1.1rem;
+    color: white;
+}
+
+#contact {
+    height: 55vh;
+    background-color: black;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    margin: 20px;
+}
+
+.row .contact-left {
+    height: 80%;
+    width: 40%;
+    margin-left: 120px;
+
+}
+
+.row .contact-left h1 {
+    position: relative;
+    top: -15px;
+    left: -100px;
+    color: white;
+
+}
+
+.row .contact-left p {
+    margin: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: gray;
+    font-size: 30px;
+    padding: 10px;
+    display: inline-block;
+    transition: transform .5s;
+}
+
+.social-icons a:hover {
+    color: crimson;
+    transform: rotateY('-5px');
+}
+
+.row .contact-right {
+    /* border: 1px solid green; */
+    height: 80%;
+    width: 50%;
+    margin-right: 110px;
+}
+
+.contact-right form {
+    width: 100%;
+
+}
+
+.contact-right form button {
+    position: relative;
+    top: -25px;
+
+}
+
+form input,
+form textarea {
+
+    position: relative;
+    top: -20px;
+    width: 80%;
+    outline: none;
+    background-color: #262626;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.contact-left h1 {
+    color: white;
+}
+
+.copyright {
+    height: 45px;
+    font-size: 1.1rem;
+    margin-left: 500px;
+    margin-top: 10px;
+}
